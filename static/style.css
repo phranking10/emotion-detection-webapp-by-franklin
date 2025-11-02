@@ -1,56 +1,40 @@
 body {
-    background: #0A0F24;
-    color: #d3e3ff;
-    font-family: 'Segoe UI', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.container {
-    background: rgba(255,255,255,0.07);
-    padding: 35px;
-    border-radius: 14px;
-    width: 420px;
-    box-shadow: 0 0 25px rgba(0,255,255,0.25);
-    backdrop-filter: blur(4px);
+    background-color: #ffe6f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #d63384;
 }
 
 h2 {
-    text-align: center;
-    margin-bottom: 25px;
+    color: #c2185b;
     font-size: 28px;
-    color: #4fc3ff;
-}
-
-label {
-    font-size: 14px;
-    font-weight: 500;
-}
-
-input[type="text"], input[type="file"] {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 6px;
-    margin-bottom: 18px;
-    background: #071323;
-    color: #d3e3ff;
+    margin-top: 30px;
 }
 
 button {
-    width: 100%;
-    padding: 12px;
-    background: #007bff;
+    background-color: #ff80ab;
     border: none;
-    border-radius: 6px;
-    font-size: 16px;
+    padding: 10px 20px;
     color: white;
+    font-weight: bold;
     cursor: pointer;
+    border-radius: 6px;
 }
 
 button:hover {
-    background: #005fcc;
+    background-color: #ec407a;
+}
+
+input[type="text"], input[type="file"]{
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #c2185b;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff4081;
 }
