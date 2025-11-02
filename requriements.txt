@@ -1,0 +1,12 @@
+flask
+tensorflow>=2.9.0
+pillow
+numpy
+opencv-python
+werkzeug
+sqlalchemy
+gunicorn
+
+
+
+
